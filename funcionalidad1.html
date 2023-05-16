@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        body{
+            background-color: #DBDFEA;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+        }
+        header{
+            background-color: #FFEAD2;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #8294C4;
+            width: 100%;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+            background-color: #ACB1D6;
+            border: 3px solid #8294C4 ;
+            border-radius: 10px;
+            padding: 20px 50px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        label{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            color: #03001C;
+            gap: 5px;
+        }
+        .nombre{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 20px;
+        }
+        input{
+            padding: 5px 10px;
+            border-radius: 10px;
+            border: none;
+        }
+        button{
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding: 5px 10px;
+        }
+        button:hover{
+            background-color: #8294C4;
+            color: #DBDFEA;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contactanos</h1>
+    </header>
+    <main>
+        <form action="">
+            <div class="nombre">
+                <label for="name">
+                    Nombre
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="surname">
+                    Apellido
+                    <input type="text">
+                </label>
+            </div>
+            <label for="tel">
+                Telefono
+                <input type="tel" id="tel" name="tel" placeholder="XXXX-XXXX">
+            </label>
+            <label for="emai">
+                Email
+                <input type="email" name="email" id="email" placeholder="dirrecion@domain.com">
+            </label>
+            <label for="description">
+                Que desea conocer:
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Escribanos sus dudas aqui..."></textarea>
+            </label>
+            <button type="submit">Enviar informacion</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
