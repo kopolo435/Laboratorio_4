@@ -1,5 +1,13 @@
 # Laboratorio_4
 Laboratorio 4
+
+Grupo 1SF131
+
+Integrantes:
+Samir Fanilla
+Javier Napoli
+Lucia Tapia
+
 IV.	TALLER PARA LA PARTE I
 
 Seguir los siguientes pasos para realizar la primera parte del taller.
