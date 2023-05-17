@@ -4,9 +4,13 @@ Laboratorio 4
 Grupo 1SF131
 
 Integrantes:
-Samir Fanilla
-Javier Napoli
-Lucia Tapia
+
+- Samir Fanilla
+
+- Javier Napoli
+
+- Lucia Tapia
+
 
 IV.	TALLER PARA LA PARTE I
 
