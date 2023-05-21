@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolios</title>
+    <style>
+        body{
+            background-color: #DBDFEA;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+        }
+        header{
+            background-color: #FFEAD2;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #8294C4;
+            width: 100%;
+        }
+        main p{
+            font-size: 24px;
+        }
+        img{
+            width: 200px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portafolios</h1>
+    </header>
+    <main>
+        <select onchange="window.location.href=this.value;">
+            <option value="">Seleccione un miembro</option>
+            <option value="samirfanilla.html">Samir Fanilla</option>
+            <option value="javiernapoli.html">Javier Napoli</option>
+            <option value="luciatapia.html">Lucia Tapia</option>
+        </select>
+    </main>
+</body>
+</html>
