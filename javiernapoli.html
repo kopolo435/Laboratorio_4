@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Napoli</title>
+    <style>
+
+        body {
+            background: rgb(255,49,49);
+            background: linear-gradient(90deg, rgba(255,49,49,1) 0%, rgba(255,127,80,1) 8%, rgba(252,176,69,1) 100%);
+            font-family: sans-serif;
+        }
+
+        .home {
+
+            justify-content: space-evenly;
+            align-items: center
+            
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap; 
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(143, 48, 14);
+            margin: 10px;
+
+        }
+        a:hover {
+            color: rgb(90, 24, 0);
+            font-weight: bolder;
+        }
+
+        #me {
+            width: 120%;
+        }
+
+        div {
+            width: 25%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        div p, h1, h3 {
+            align-items: center
+        }
+
+        h1 {
+            font-size: 50px;
+            font-style: italic;
+        }
+
+        p {
+            width: 40%;
+        }
+
+        #cv {
+            margin: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        #cv > img {
+            width: 50%;
+        }
+
+        #projects {
+            display:flex;
+            flex-direction: column;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <section class="home">
+        <div>
+            <p>Hi, I'm</p>
+            <h1>Javier Napoli</h1>
+            <h3>a Software Ingineer in progress</h3>
+        </div>
+
+        <div>
+            <img id="me" src="multimedia/a.jpg" alt="">
+        </div>      
+
+    </section>
+
+    <section class="about">
+        <h2>About me</h2>
+
+        <p>I am a future software engineer who likes Asian culture, cooking and video games, so in the future I will be looking to work in one of these industries.</p>
+
+        <center><h2> CV</h2></center>
+    </section>
+
+    <section id="cv">
+
+        <img src="multimedia/b.png" alt="">
+
+    </section>
+
+    <section id="projects">
+        
+        <h2>For the current moment I dont have any github projects...</h2>  
+        <p>But stay tuned until I got one!</p>
+
+    </section>
+
+
+    <footer>
+        <h2>© Javier Napoli</h2>
+    </footer>
+
+</body>
+</html>
